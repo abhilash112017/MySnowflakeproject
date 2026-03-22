@@ -1,0 +1,8 @@
+version: 2
+sources:
+    - name: datafeed_shared_schema
+      database: "{{('MYPROJECT')}}"
+      schema: raw_schema
+      tables:
+        - name: raw_customerdata 
+        - name : raw_orders
