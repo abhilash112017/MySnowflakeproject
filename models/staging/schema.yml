@@ -16,4 +16,6 @@ sources:
                 - accepted_values:
                     arguments: 
                       values: ['placed', 'shipped', 'completed', 'returned', 'return_pending']
+                    
+        - name: customers
          
